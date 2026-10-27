@@ -1,11 +1,11 @@
 FAQ
 ---
 
-  - Why are Celsius and Fahrenheit not supported?
+  - Почему отсутствует поддержка градусов цельсия и фаренгейта?
 
-    In contrast to the SI unit of temperature, the [Kelvin](https://en.wikipedia.org/wiki/Kelvin),
-    and to all other units, Celsius and Fahrenheit both require an additive offset when converting into
-    and from other temperature units. This additive offset leads to all kinds of ambiguities when
+    В отличие от единицы измерения температуры в системе СИ, [Kelvin](https://en.wikipedia.org/wiki/Kelvin),
+    и в отличие всех остальных, цельсий и фаренгейт требуют специфическое преобразование в дргугие единицы
+    измерения температуры. This additive offset leads to all kinds of ambiguities when
     performing calculations in these units. Adding two temperatures in Celsius, for example, is
     only meaningful if one of them is seen as an offset value (rather than as an absolute
     temperature). Insect is primarily a scientific calculator (as opposed to a unit conversion
